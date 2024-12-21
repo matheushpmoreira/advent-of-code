@@ -1,6 +1,6 @@
 package me.Matt.adventofcode;
 
-import me.Matt.adventofcode.days.DayFactory;
+import me.Matt.adventofcode.days.Day;
 import me.Matt.adventofcode.utils.InputService;
 
 public class AdventOfCode {
@@ -9,7 +9,7 @@ public class AdventOfCode {
     public static void main(String[] args) {
         var day = normalizeDay(args[0]);
         var input = inputService.getInput(day);
-        var dayInstance = DayFactory.createDay(day, input);
+        var dayInstance = Day.getSolution(day, input);
         var answer = dayInstance.solve();
 
         System.out.println("--- Advent of Code 2024 ---");
