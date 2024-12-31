@@ -1,4 +1,4 @@
-package me.Matt.adventofcode.utils;
+package me.Matt.adventofcode.util;
 
 import me.Matt.adventofcode.util.function.IntBinaryConsumer;
 
