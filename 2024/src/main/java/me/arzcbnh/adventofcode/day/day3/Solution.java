@@ -1,8 +1,11 @@
-package me.Matt.adventofcode.days;
+package me.Matt.adventofcode.day.day3;
 
-import java.util.regex.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import me.Matt.adventofcode.day.Answer;
+import me.Matt.adventofcode.day.Solver;
 
-public final class Day3 implements Day {
+public final class Solution implements Solver {
     private static final String DO_COMMAND = "do()";
     private static final String DONT_COMMAND = "don't()";
 
