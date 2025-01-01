@@ -1,9 +1,11 @@
-package me.Matt.adventofcode.days;
+package me.Matt.adventofcode.day.day1;
 
 import java.util.ArrayList;
 import java.util.List;
+import me.Matt.adventofcode.day.Answer;
+import me.Matt.adventofcode.day.Solver;
 
-public final class Day1 implements Day {
+public final class Solution implements Solver {
     public Answer solve(String input) {
         var lists = parseInput(input);
         List<Integer> locations1 = lists.get(0);
