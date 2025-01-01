@@ -1,4 +1,4 @@
-package me.Matt.adventofcode.solution;
+package me.Matt.adventofcode.day;
 
 public final class Answer {
     private final Object part1;
