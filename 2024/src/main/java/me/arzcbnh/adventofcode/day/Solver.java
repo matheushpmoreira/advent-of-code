@@ -1,5 +1,5 @@
 package me.Matt.adventofcode.solution;
 
-public interface Challenge {
+public interface Solver {
     Answer solve(String input);
 }
